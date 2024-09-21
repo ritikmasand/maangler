@@ -81,6 +81,7 @@ For example:
 - If you want to add a heading in your table, you can simply use a `<th> </th>` tag
 
 #### Attributes in tables
+
 - `border` attribute is used to add a border to the table.
 - `cellspacing` attribute is used to add a space between the cell and the border.
 - `cellpadding` attribute is used to add a space between the cell and the content.
@@ -114,3 +115,108 @@ For example:
         <td>Male</td>
       </tr>
 ```
+
+#### Forms
+
+- The `<form>` tag is used to create a form in a webpage.
+- The form tag here is a parent tag,i.e it has many child tags available.(Just like tables)
+- The form tag has a lot of attributes which are used to customize the form.
+
+#### Inputs
+
+- The `<input>` tag is used to create an input field in a form.
+- The input tag has a lot of attributes which are used to customize the input field.
+
+#### Labels
+
+- The `<label>` tag is used to add a label/description to an input field.
+- The label tag is used to describe the input field.
+
+for example
+
+```
+<label for = 'username'> Email: </label>
+```
+
+#### attribute for input
+
+- Type
+
+1. If you want the user to enter a text input then the key for the attribute would type and property would text
+
+for example-
+
+```
+<input type='text'>
+```
+
+2. If you want the user to enter a password (Encrypted password) the property would change to password
+
+- for example :
+
+```
+<form>
+<label for="pwd">Password:</label>
+<input type="password" name="pwd">
+</form>
+```
+
+3. If you want the user to enter a number then the property would change to number
+
+- for example :
+
+```
+<form>
+<label for="num">Number:</label>
+<input type="number" name="num">
+</form>
+```
+
+4. If you want the user to enter a date then the property would change to date
+   for example:
+
+```
+<form>
+<label for="date">Date:</label>
+<input type="date" name="date">
+</form>
+```
+
+5. If you want a user to submit a form then the property would change to submit
+   for example:
+
+```
+<form>
+<label for="submit">Submit:</label>
+<input type="submit" name="submit">
+</form>
+```
+
+- name
+  This attribute is used to define a meaning/name for your inputs
+  for example-
+
+```
+<form>
+<input type='text' name='username'>
+</form>
+```
+
+#### Semantic tags
+
+- Semantic tags are used to define the meaning of the content. They are used to describe the structure of webpage.
+- They are used to define the meaning of the content.
+
+- For example
+- header
+- nav
+- main
+- section
+- article
+- aside
+- footer
+
+#### Advantages of using semantic tags
+
+- It helps improve SEO (search engine optimisation) of a website/webpage
+- It helps in accessibility of a website/webpage
