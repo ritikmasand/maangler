@@ -1,0 +1,50 @@
+/* h1,
+h2,
+p {
+  color: gray;
+} */
+
+/* Good way */
+
+/* Bad way */
+/* .a {
+  background-color: aqua;
+}
+.b {
+  background-color: aqua;
+}
+.c {
+  background-color: aqua;
+} */
+
+/* .para {
+  background-color: red;
+} */
+
+/* h1 p {
+  background-color: yellow;
+} */
+
+/* .c .d {
+  background-color: blue;
+} */
+
+h1 {
+  background-color: rgb(31, 114, 127);
+}
+
+.a {
+  background-color: #ff0000;
+}
+
+body {
+  background-image: url("https://letsenhance.io/static/8f5e523ee6b2479e26ecc91b9c25261e/1015f/MainAfter.jpg");
+  font-family: cursive;
+  font-size: 16px;
+  font-weight: bolder;
+}
+
+p {
+  text-align: right;
+  text-decoration:overline;
+}
