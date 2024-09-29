@@ -180,3 +180,78 @@ p {
   text-decoration:overline;
 }
 ```
+
+5. Line height
+
+- This is used to set the space between lines of text.
+
+6. Letter spacing
+
+- This is used to set the space between letters of text.
+  For example:
+
+```
+.e {
+  line-height: 15px;
+  letter-spacing: 20px;
+}
+```
+
+#### Border, Padding and Margins
+
+1. Border: This is used to add a border around an element.
+2. Padding: This is used to add space between the content and the border of an element.
+3. Margin: This is used to add space between an element and other elements.
+
+For example:
+
+```
+.e {
+  line-height: 15px;
+  /* letter-spacing: 20px; */
+
+  border: 6px solid rgb(131, 13, 13);
+  padding: 15px;
+}
+.d {
+  border: 8px solid yellow;
+  /* margin: 15px; */
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+
+```
+
+#### Css Box Model
+
+- The css box model is essentially a box that wraps every html element. It consists of : Content,Padding, borders and margins.
+
+#### Some more important css stylings
+
+1. Height: As the name suggests, It specifies the height of a tag.
+2. Width: As the name suggests, It specifies the width of a tag.
+   For example:
+
+```
+.dd {
+  border: 2px solid red;
+  height: 200px;
+  width: 600px;
+  padding: 40px;
+}
+```
+
+3. Display: This is used to change the behaviour of the display for you tags.
+
+- For example: We know that the default behaviour of div tag is block and that of span is inline.If we want to change their default behaviour, we can do it
+
+```
+div {
+  display: inline;
+}
+
+span {
+  display: block;
+}
+
+```

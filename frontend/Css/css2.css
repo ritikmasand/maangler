@@ -1,3 +1,7 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
 /* h1,
 h2,
 p {
@@ -28,23 +32,58 @@ p {
 /* .c .d {
   background-color: blue;
 } */
-
+/* 
 h1 {
   background-color: rgb(31, 114, 127);
-}
+} */
 
-.a {
+/* .a {
   background-color: #ff0000;
-}
+} */
 
 body {
-  background-image: url("https://letsenhance.io/static/8f5e523ee6b2479e26ecc91b9c25261e/1015f/MainAfter.jpg");
+  /* background-image: url("pp.jpg"); */
+  /* background-repeat: no-repeat;
   font-family: cursive;
   font-size: 16px;
-  font-weight: bolder;
+  font-weight: bolder; */
 }
 
 p {
-  text-align: right;
-  text-decoration:overline;
+  /* text-align: right; */
+  /* text-decoration: overline; */
+}
+
+.e {
+  /* line-height: 15px; */
+  /* letter-spacing: 20px; */
+
+  /* border: 6px solid rgb(131, 13, 13);
+  padding: 15px; */
+}
+.d {
+  /* border: 8px solid yellow; */
+  /* margin: 15px; */
+  /* margin-left: 30px;
+  margin-bottom: 30px; */
+}
+
+.c {
+  border: 5px solid black;
+  padding: 20px;
+  margin: 30px;
+}
+.dd {
+  border: 2px solid red;
+  /* height: 200px;
+  width: 600px; */
+  /* padding: 40px; */
+}
+
+div {
+  display: inline;
+}
+
+span {
+  display: block;
 }
