@@ -1,0 +1,26 @@
+.container {
+  border: 2px solid black;
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+.Item {
+  height: 50px;
+  width: 100px;
+  border: 1px solid red;
+}
+
+.item1 {
+  order: 2;
+}
+.item2 {
+  order: 3;
+    flex-grow: 1;
+}
+.item3 {
+  order: 100;
+
+}
