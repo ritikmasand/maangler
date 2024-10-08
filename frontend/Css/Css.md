@@ -255,3 +255,84 @@ span {
 }
 
 ```
+
+#### Media queries
+
+- Media queries helps us to get a responsive design.That means using media queries you can apply different types of styles for the same set of tags with different dimensions.
+- Using media queries, we adjust our code in a way such that it is suited for all screen sizes i.e
+  desktop,mobile,tablets etc,smartwatches etc.
+
+#### Min-width
+
+- This is the minimum width that should in order for a styling to work.
+- For example:
+
+```
+@media (min-width: 900px) {
+  #parent {
+    display: flex;
+    flex-direction: column-reverse;
+    border: 5px dotted purple;
+    border-radius: 30%;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    background-color: cornflowerblue;
+  }
+  #part1 {
+    font-size: larger;
+    font-weight: bold;
+    color: brown;
+  }
+  #part2 {
+    font-size: larger;
+    font-weight: bold;
+    color: rgb(22, 111, 8);
+  }
+  #part3 {
+    font-size: x-small;
+    font-weight: bold;
+    color: rgb(80, 2, 54);
+  }
+}
+
+@media (max-width: 320px) {
+  #parent {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+```
+- In the above code, the styles inside the parent div media query will be applied when the screen width is greater than or equal to 900px because we have specified the minimum width as 900.
+
+#### max-width
+- This is the maximum width that should be there in order for a styling to work.
+- For example:
+```
+@media (max-width: 600px) {
+  #parent {
+    border: 4px solid red;
+    display: flex;
+    flex-direction: row-reverse;
+    /* justify-content: end;
+    align-items: end; */
+    height: 300px;
+    /* width: ; */
+  }
+  #part1 {
+    background-color: blueviolet;
+    height: 200px;
+  }
+  #part2 {
+    background-color: rgba(77, 77, 169, 0);
+    height: 200px;
+  }
+  #part3 {
+    background-color: bisque;
+    height: 200px;
+  }
+}
+```
+In the above code, the styling for media query will only work once the size of the screen reaches 600px or below because in this case I have set the maximum width as 600px.
+
