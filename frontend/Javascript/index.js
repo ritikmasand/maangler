@@ -128,8 +128,52 @@ var arr = [1, 2, 3, 4, 53, 6, 7, 8, 9, 10];
 var addition = (a, b) => {
   var sum = a + b;
   console.log(sum);
+  // return sum;
 };
 
-var result = addition(10, 20); // addition is a first class function.
+// var result = addition(10, 20); // addition is a first class function.
 
-console.log(result);
+// console.log(result);
+
+// H.w: what is undefined?
+
+var arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+// add an element.
+
+arr.push(11);
+
+// delete an element
+
+arr.pop();
+
+// splice
+
+// arr.splice(0, 3);
+
+// slice (return an subarray)
+// var arr1 = arr.slice(0, 5);
+// console.log(arr.join(" "));
+
+// console.log(arr.reverse());
+
+var arr1 = [1, 2, 3, 4, 5];
+
+// var cop_arr = arr1.map((elem, ind) => {
+//   var sqr = elem * elem;
+//   return sqr;
+// }); // 1-1 mapping
+
+// console.log(cop_arr);
+
+// 1,2,3,4,5,6,7,8,9,10
+
+// var cop_arr1 = arr.filter((elem, idx) => {
+//   if (elem % 2 == 0) {
+//     return true;
+//   } else {
+//     return false;
+//   }
+// });
+
+console.log(cop_arr1);
