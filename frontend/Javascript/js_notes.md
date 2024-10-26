@@ -153,3 +153,38 @@ demo(add2numbers);
 - This will return a new array with the elements that are true in the callback function.
 - If we get a false, it will just ignore that element.
 - This will be used a lot in react.
+
+#### Objects
+- A collection of data
+- It has key-value pair
+- Keys can anything, but it will always be in string data type.
+- Key has to unique.
+
+
+-------------------------------------------------------------------------------------------------------------------------
+
+### Dom
+- It stands for document object model.
+- Documents refers to the html document loaded on the browser.
+- Model refers to the connectivity of these two things.
+- Dom is a model to connect html document with js object.
+- This is introduced by the browser.
+
+## Getting Reference of an element
+
+1. getElementById()
+- Get reference of an element using it's identifier (id)
+
+2. GetElementsByClassName()
+- This gets reference of an elements using class.
+- This will return a colletion of all elements which matches the given class name.
+
+3. GetElementsbyTagName()
+
+- This also returns an HTML Collection.
+- This will return all the elements which matches the tag name.
+
+4. GetElementsByName()
+- This will return a collection of all elements which matches the name attribute.
+- This is commonly used for input tags.
+- This returns a NodeList.

@@ -176,4 +176,19 @@ var arr1 = [1, 2, 3, 4, 5];
 //   }
 // });
 
-console.log(cop_arr1);
+// console.log(cop_arr1);
+
+var obj = {
+  key1: "value1",
+  key2: "value2",
+  first_name: "Ritik",
+  second_name: "Masand",
+  arry1: arr1,
+  fxn: addition()
+};
+// "double" , 'single'
+console.log(obj);
+
+
+//--------------------------------------------------------------------------------------------------------------
+
