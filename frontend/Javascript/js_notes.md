@@ -188,3 +188,38 @@ demo(add2numbers);
 - This will return a collection of all elements which matches the name attribute.
 - This is commonly used for input tags.
 - This returns a NodeList.
+
+
+
+### document.createElememt()
+- This is used to create a new element in the memory
+- Your new would be created in dyanmmically , using Js in your runtime.
+- This is not yet added to the dom tree.
+
+### <element.appendchild()>
+- This is used to append/add a child to whichever element you want to.
+- Parent_element.appendchild(child_element)
+
+
+### element.style
+- This is used to give style (css) to any element
+- This gives inline styling, which means this will be added in the same line.
+
+
+## Event Handlers
+- Event handlers are used to handle and event
+
+### Event
+- Anything that we do on a website is an event.
+- From a simple scroll on a webpage, to doing something like drag and drop, or a click.
+- There are 100s of different events.
+
+### Handler
+- This is a function/logic which we use to handle if we want any custom implementation on that event
+- When that event happens, it triggers the event handler.
+
+
+### Click
+- Thid is an event which triggers when the user clicks on anything.
+- This is a very common event.
+- This is a left click.

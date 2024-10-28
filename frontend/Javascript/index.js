@@ -178,17 +178,37 @@ var arr1 = [1, 2, 3, 4, 5];
 
 // console.log(cop_arr1);
 
-var obj = {
-  key1: "value1",
-  key2: "value2",
-  first_name: "Ritik",
-  second_name: "Masand",
-  arry1: arr1,
-  fxn: addition()
-};
-// "double" , 'single'
-console.log(obj);
-
+// var obj = {
+//   key1: "value1",
+//   key2: "value2",
+//   first_name: "Ritik",
+//   second_name: "Masand",
+//   arry1: arr1,
+//   fxn: addition()
+// };
+// // "double" , 'single'
+// console.log(obj);
 
 //--------------------------------------------------------------------------------------------------------------
+
+var rohit_para = document.createElement("p");
+
+var abhishek_btn = document.createElement("button");
+
+document.body.appendChild(abhishek_btn);
+
+document.body.appendChild(rohit_para);
+
+abhishek_btn.innerText = "click me";
+
+rohit_para.innerText = "My paragraph";
+
+var shrey_para = document.getElementById("shrey-para");
+
+shrey_para.style.backgroundColor = "yellow";
+
+shrey_para.style.color = "#ff0000";
+
+shrey_para.style.fontSize = "100px";
+
 
