@@ -7,12 +7,20 @@
   </head>
   <body>
     <h2>Event Handlers</h2>
+    <input type="text" id="ip1" placeholder="demo" />
     <button onclick="btn_clicker()">Click me</button>
     <img
       onclick="img_clicker()"
       src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTc9APxkj0xClmrU3PpMZglHQkx446nQPG6lA&s"
       alt=""
     />
+    <input type="text" onchange="inp_changer()" onkeyup="realtime_changer()" />
+
+    <form onsubmit="form_submitter()">
+      <input type="text" placeholder="Name" />
+      <button type="submit">Abcd</button>
+    </form>
+
     <script src="index.js"></script>
   </body>
 </html>

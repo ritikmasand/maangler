@@ -223,3 +223,21 @@ demo(add2numbers);
 - Thid is an event which triggers when the user clicks on anything.
 - This is a very common event.
 - This is a left click.
+
+### change
+- This is commonly used for any inputs.
+- Change means, change of value.
+- This is triggered when the user focues away from the input.
+
+### Keyup
+- This is mostly used for inputs. 
+- This is triggered when the user preses a key.
+
+### submit
+- This is typically used for forms
+- This is used to handle an event when a form is submitted.
+
+## addEventListener
+- This is used to add an event handler to an element.
+- This takes 2 parameters, fist is the event we are interested in, second is the callback function.
+- This is a clean approach.
