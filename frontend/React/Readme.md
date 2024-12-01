@@ -34,4 +34,16 @@
 - Make sure to use proper namings and also imports.
 
 
+### Props
+- This is just a shorthand for properties
+- Props means sending data from 1 component to another.
+- Typically from parent to child.
 
+### Hooks
+- Hooks are special functions.
+- These will provide additional functionlaity to your component.
+- Pre-built components.
+
+## State Hook
+- If your react application goes through any change, state hook can track the changes.
+- Usestate is the name of the hook that we use.
